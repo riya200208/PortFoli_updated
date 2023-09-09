@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import GithubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import CodeIcon from "@mui/icons-material/Code";
 import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
@@ -27,7 +27,7 @@ const FooterWrapper = styled.footer`
 const Logo = styled.h1`
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => "#FFCCCC"};
 `;
 
 const Nav = styled.nav`
@@ -72,7 +72,7 @@ const SocialMediaIcon = styled.a`
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: blue;
   }
 `;
 
@@ -96,8 +96,8 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GithubIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
@@ -105,8 +105,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
+          <SocialMediaIcon href={Bio.coding} target="display">
+            <CodeIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2023 Riya Das. All rights reserved.</Copyright>

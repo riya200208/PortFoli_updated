@@ -49,17 +49,6 @@ const Title = styled.div`
   }
 `;
 
-const Desc = styled.div`
-  font-size: 18px;
-  text-align: center;
-  max-width: 600px;
-  color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 16px;
-  }
-`;
-
 const TimelineSection = styled.div`
   width: 100%;
   max-width: 1000px;
@@ -76,17 +65,15 @@ const index = () => {
     <Container id="experience">
       <Wrapper>
         <Title>Experience</Title>
-        <Desc>
-          My work experience as an intern working on organizations and projects.
-        </Desc>
+
         <TimelineSection>
           <Timeline>
             {experiences.map((experience, index) => (
               <TimelineItem>
                 <TimelineSeparator>
-                  <TimelineDot variant="outlined" color="secondary" />
+                  <TimelineDot variant="outlined" color="primary" />
                   {index !== experiences.length - 1 && (
-                    <TimelineConnector style={{ background: "#854CE6" }} />
+                    <TimelineConnector style={{ background: "#F0F0F0" }} />
                   )}
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>

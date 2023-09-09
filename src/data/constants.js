@@ -2,12 +2,13 @@ export const Bio = {
   name: "Riya Das",
   roles: ["Web Developer", "Competitive Programmer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I have a strong passion for competitive programming, excelling in contests on various platforms. My expertise extends to multiple programming languages, including  C++, Java etc. I've worked on diverse tech projects, primarily in web and mobile app development.",
   github: "https://github.com/riya200208",
   resume:
     "https://drive.google.com/file/d/1jlho2zBCGkDJrfPrdxA3t_iHfB3o1tN2/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/riya-das-ab8b6b211/",
   twitter: "https://twitter.com/Ri_8as",
+  coding: "https://linktr.ee/ri_as",
 };
 
 export const skills = [
@@ -35,11 +36,7 @@ export const skills = [
         image:
           "https://th.bing.com/th?id=OIP.9rKXSCe4uLGBZT9mAwa_XAHaHv&w=210&h=219&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
       },
-    ],
-  },
-  {
-    title: "Development",
-    skills: [
+
       {
         name: "React Js",
         image:
@@ -75,12 +72,7 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-    ],
-  },
 
-  {
-    title: "Others",
-    skills: [
       {
         name: "Git",
         image:
@@ -119,7 +111,7 @@ export const experiences = [
     company: "NIT Durgapur",
     date: "Aug 2023  Present",
     desc: "Designing a system to retrieve real-time data from nearby hospitals, ensuring up-to-date and accurate information availability.",
-    skills: [
+    Techstacks: [
       "Python",
       "React Js",
       "MongoDB",
