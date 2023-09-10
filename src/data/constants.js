@@ -163,7 +163,7 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript", "Bootstrap"],
     category: "web app",
     github: "https://github.com/riya200208/Rmail",
-    webapp: "/",
+    webapp: "https://rmail-riya200208.vercel.app/",
   },
   {
     id: 0,
