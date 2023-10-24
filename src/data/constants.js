@@ -5,7 +5,7 @@ export const Bio = {
     "I have a strong passion for competitive programming, excelling in contests on various platforms. My expertise extends to multiple programming languages, including  C++, Java etc. I've worked on diverse tech projects, primarily in web and mobile app development.",
   github: "https://github.com/riya200208",
   resume:
-    "https://drive.google.com/file/d/1jlho2zBCGkDJrfPrdxA3t_iHfB3o1tN2/view?usp=sharing",
+    "https://drive.google.com/file/d/1eRr04nhUaG-lxToWRTANyDxcwWHHq2Y_/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/riya-das-ab8b6b211/",
   twitter: "https://twitter.com/Ri_8as",
   coding: "https://linktr.ee/ri_as",
@@ -106,19 +106,12 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEACwsLCwvLDI3NzJFS0JLRWZeVlZeZptvd293b5vrk6yTk6yT69D8zb/N/ND///////////////////////////8BLCwsLC8sMjc3MkVLQktFZl5WVl5mm293b3dvm+uTrJOTrJPr0PzNv8380P/////////////////////////////CABEIAJYAlgMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAgMEBQEG/9oACAEBAAAAAOuBHnS3yABGGZx9O1oukA8+f6/Cs6vvKlswfQTA53D6tg9Z8fa2gc6V+b2Ek7cUOyCHy1vT920eX56+Zf2rQwW49a3LbZClXR2w+Wt7VF/lGqKi/kUfUBwdk4Q08nZryzzardgVcjH1/L9LNmuwYvqfQc1fVD1JrwatQGbj36sOhTszZdvWAc3mdji9Ci+fM6PWIyYL9GDl66L0YTp71Cney6Mm3znq5wlo0VStzalWarpRwXA158ey+RQyrlJoyL7dAeZaJ2+S9K5wtvA8eg8jL0f/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/2gAKAgIQAxAAAAAAAAAAAABUAACaXMAAAAAAAAAAAAAAAAAAAAA//8QANRAAAgEDAgMECQMEAwAAAAAAAQIDAAQREiETMUEgIkJxBRQwMjRRUmFyEIGSIzNTc0NU4v/aAAgBAQABPwDts6oupqPpOPrE9R36yNgQvSsrqGUgg+1LKoyxAHzNcaD/ADR/yFS38CcsvVrKLkmVua7Bau00XMo+9ejPiPJKu5fVWV05vzWovSUDbOClet231n+JpXV1DKQQfYkhVLMcAczVzdtNKCPcU7CoeBPEGWNKuYTBMyVZztDLspbIoWSP358s5r1MRd+DZxV7NxpuRGFqwg4suojupXpKfSOCtWt00DfNKR1dQynIPsLxJp2MSclUNRBUkEYIqxgn0F+IyKangj1oJZZJH6JQGjIDrFgElI93p1iw+0kmED5Z6xGDGoR1Z11d2SpodwhkSU9FfZ6ghi3j1zIesdXllozJHutQW0k5wtW8QgmeJScaFPsHuoobxw3VAKuVhkEM2Aw1ippWTCIMyNWNH+t9nl6tW0RjMp74DKVXcuKyYUci0wuPG9I5fRL6qfNHogStI0Z6hyhGHytaGaJjcv5N1WopGy0UuNaj9mFRXkUFrGOb1aXbvdZfx9t3WNGduSindndmbmTUAZ30aiEO7+QouAjO+7z+DropNUZGjPFlXYN0HzaooUiHzY82PM1KweU/RBv5vUTaJFPgn38nqWFJfs45MKd9aMJ85h3dF5PQ1mIMIihi3Sp48TEICVbvLUNjcsQ3uVFJryrDDrzHa40MsxDuqqjbJU3qugu6o1GDhQu2Arysq1PAHK5kwpIUKRVvh2ml+baV8lqeQxx5XdzsgqZBDaqnUmhGJbVU+1QSGSPfZxswqcBZIJfvobyaou5KgaUBtZDgvUMKujLkq8UjKr09+8JMbxAutLeyTzwbKMP2p/78v5mrL4qGrr3IftOlHQLxAEK9+rP4cfZmpP685l8CZVKINxG8hl8f7KKRtMxiDZGgMKk/ozCXwPhXq7/sj7yJT/Hf+Ktveuv9xq+Gu5lZN1q2+Ih/Mdo2ck0824XDUno4R4ZZTrqR2liliZdMyDVU5dzFIpcoQHO4Vaecxh1TlMcqRSTwIioofAH0GrmIFy0QchuhWrIxQKS2su3ySnngdGRg+CPoNRyvIFypIgyxqAoJHf5JrJRqedoYkTrJl3qG+tAoQApQCzurhQEU5B6t2pYhJg5KuPdYVPe3SsY9kqGZoplkrQBiHICMweE19YkPj2PjL0s5QYm/mN1NK6MMqwPkaZ0TdnVfM005kwsH8zSLE5RMOFJbDZ3L0U14twQeszVLazzvLIu5DlaSJ2lWPBDE0qhVCjkBjt38GsI688haisI0Ul+81Qok1nErfTW0UiGfmvuy1wZ4UVkbUTQSF4DO8ApFgNq8ywhDTxvOusphgmgh+S0CGOLYAvyeao40hTA8yTUF7AJZuiu9SBTNauPrPsLnPDBAJ0urGrm9efbklRcazhWVjs/gqG7lnDBYFqWcwuyxpw2B6NlakubyBUMojNRXd3c5EYiFTvNE+LkCSknnaDipDHoFC89adIXwiE1d2pgf5oasLZ9pX81X2M1rEkon05QHLrV1cGeXPQbLVoggtMn7uaiBmuUz4nr0ryhr0a2J/NK9KrvC1ei3ykqVcxcGZ0q1n9a0xS+DsM6rjUwGTj9YUc8WWN8MZXpJxkLKOG/6X6uYVwwC6sPQtV/7MNSSzuhQzwVFCY3DrcwU8Kz7y36UlrChDJfIGqcTSqqNPA9QLNAxZHg/dxUsLzkM88FC1dHQxzIz9AtA4XLEbDc16zq/twyPWbp/oiH8zU0CjhklncyoMt+tsdOuJtnVzTKrAhlBFIyR3PARyV0/pipjonlbC+4lLMpwDHF4KWfUN44huMErXGiyg4UW8Wa1gRhngi3ViMrQKNLKnBiwA/hq2iiMEJKL7lKiL7qKKuvhpvxqCVZYkYUdqZ1lniVDkJlm/WSGOX31BqZZ4InaKY+T1A8Ae2CNyR81kfOjLEvORB5muKjTyssTSqUArNyxBFtEtcK6I3aED8K4Vz0li/hRF31SFwKeWQK+q0arWaLgxoXAZVrIPUVdOgglBcbrUEYnkl3dEAXK0LO2H/HSqqjCqAOxc/Dzfga4cTxqWRW7grFmOdvQdBIAluoFQzu/vaBulXauULqTsrV6u2vUoGNIK0bRgZQoTdO7QhdJYjg4LLUzurIF10Zy6jXCj90ViEtg2qVbGBy2iFFwBUfxFx5J2iAQQRsaBe3whUtF0as2Z1jjjBXFK9mjauPQuIMkojuT8kpzNLygx92egLrAAaFfJaxd/wCSM+aVquF5xo34tXH+uGRf2zRksj1QVrtCQ3FiB1ZrjwK7FGDkgAKlQo4LyP77+w0g9BWAOg7ZANaE+haAA5Ds/wD/xAAWEQADAAAAAAAAAAAAAAAAAABBUGD/2gAIAQIBAT8ARGC//8QAHBEAAgAHAAAAAAAAAAAAAAAAARECEyEwQEFg/9oACAEDAQE/AMhUdokS4Rt8F//Z",
-    role: "Healthcare Project Intern",
-    company: "NIT Durgapur",
+    img: "https://academy.outscal.com/static/media/Outscal%20Logo_Yellow%20Blue.65b9c8e37eda0a10fd4b.jpg",
+    role: "Code Reviewer",
+    company: "OUTSCAL",
     date: "Aug 2023  Present",
-    desc: "Designing a system to retrieve real-time data from nearby hospitals, ensuring up-to-date and accurate information availability.",
-    Techstacks: [
-      "Python",
-      "React Js",
-      "MongoDB",
-      "JavaScript",
-      "Express Js",
-      "Node Js",
-    ],
+    desc: "As a Code Reviewer & Mentor, I meticulously analyzed and debugged code, proposed optimized solutions, and ensured adherence to best practices. My mentorship elevated team coding skills, and my proactive approach consistently enhanced code quality and efficiency.",
+    Techstacks: ["Data Structures and Algorithms", "C++"],
   },
 ];
 
